@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD><TITLE></TITLE><!--
+    
+ 
+    -->
+<META content="text/html; charset=UTF-8" http-equiv=Content-Type>
+<META content=IE=EmulateIE7 http-equiv=X-UA-Compatible><LINK rel=stylesheet type=text/css href="style.css" media=screen><LINK rel=stylesheet type=text/css href="style.ie7.css" media=screen>
+<SCRIPT type=text/javascript src="script.js"></SCRIPT>
+</HEAD>
+
+
+<BODY><DIV id=art-page-background-glare>
+<DIV id=art-page-background-glare-image></DIV></DIV>
+<DIV id=art-main>
+<DIV class=art-sheet>
+<DIV class=art-sheet-tl></DIV>
+<DIV class=art-sheet-tr></DIV>
+<DIV class=art-sheet-bl></DIV>
+<DIV class=art-sheet-br></DIV>
+<DIV class=art-sheet-tc></DIV>
+<DIV class=art-sheet-bc></DIV>
+<DIV class=art-sheet-cl></DIV>
+<DIV class=art-sheet-cr></DIV>
+<DIV class=art-sheet-cc></DIV>
+<DIV class=art-sheet-body>
+<DIV class=art-header>
+<DIV class=art-header-png></DIV>
+<DIV class=art-header-jpeg></DIV>
+<DIV class=art-logo>
+<H1 id=name-text class=art-logo-name><A href="HOME PAGE.html">Kishan Sital</A></H1>
+<DIV id=slogan-text class=art-logo-text>About</DIV></DIV></DIV>
+<DIV class=art-nav>
+<DIV class=l></DIV>
+<DIV class=r></DIV>
+<DIV class=art-nav-center>
+<UL class=art-menu>
+<LI><A class=active href="HOME PAGE.html"><SPAN class=l></SPAN><SPAN class=r></SPAN><SPAN class=t>Home</SPAN></A> </LI>
+<LI><SPAN class=art-menu-separator></SPAN></LI>
+<LI><A class=active href="Contact.html"><SPAN class=l></SPAN><SPAN class=r></SPAN><SPAN class=t>Contact</SPAN></A> </LI>
+<LI><SPAN class=art-menu-separator></SPAN></LI>
+<LI><A class=active href="#"><SPAN class=l></SPAN><SPAN class=r></SPAN><SPAN class=t>Menu</SPAN></A> 
+<UL>
+<LI><A href="About Me.html">About me</A>  
+<LI><A href="">My Game</A>
+<LI><A href="Photos.html">Photos and Video's</A> </LI></UL></LI>
+<LI><SPAN class=art-menu-separator></SPAN></LI>
+<LI><A class=active href="About.html"><SPAN class=l></SPAN><SPAN class=r></SPAN><SPAN class=t>About</SPAN></A> </LI></UL></DIV></DIV>
+<TABLE class=art-content-layout>
+<TBODY>
+<TR>
+<DIV class=art-vmenublock>
+<DIV class=art-vmenublock-body>
+<DIV class=art-vmenublockheader>
+<DIV class=l></DIV>
+<DIV class=t></DIV></DIV>
+<DIV class=art-vmenublockcontent>
+<DIV class=art-vmenublockcontent-tl></DIV>
+<DIV class=art-vmenublockcontent-tr></DIV>
+<DIV class=art-vmenublockcontent-bl></DIV>
+<DIV class=art-vmenublockcontent-br></DIV>
+<DIV class=art-vmenublockcontent-tc></DIV>
+<DIV class=art-vmenublockcontent-bc></DIV>
+<DIV class=art-vmenublockcontent-cl></DIV>
+<DIV class=art-vmenublockcontent-cr></DIV>
+<DIV class=art-vmenublockcontent-cc></DIV>
+<DIV class=art-vmenublockcontent-body><!-- block-content -->
+<UL class=art-vmenu>
+
+<DIV class=cleared></DIV></DIV></DIV>
+<DIV class=cleared></DIV></DIV></DIV>
+<DIV class=art-block></DIV>
+<DIV class=art-block>
+<DIV class=art-block-body>
+<DIV class=cleared></DIV></DIV></DIV>
+<DIV class=art-block>
+<DIV class=art-block-body>
+<DIV class=cleared></DIV></DIV></DIV></TD>
+<TD class="art-layout-cell art-content">
+<DIV class=art-post>
+<DIV class=art-post-body>
+<DIV class="art-post-inner art-article">
+
+
+
+<head>
+<style>
+body {
+    background-color: blue
+}
+</style>
+</head>
+
+
+     <h1>   Vragen Over mij. <span id="NumberAsked">1</span> van 10 met <span id="NumberCorrect">0</span> Correcte Antwoorden</h1>
+    <h4>
+        <span id="TriviaQuestion">???</span>
+    </h4>
+    <h3>
+        &nbsp;
+        <input id="RadioTrue" type="radio" value="true" name="answer" checked="checked" /> Juist
+        &nbsp;&nbsp;&nbsp;
+        <input id="RadioFalse" type="radio" value="false" name="answer" /> Onjuist
+    </h3>
+    <p>
+        <input id="ButtonContinue" onclick="checkAnswer();" type="button" value="continue" />
+    </p>
+ 
+    <script language="javascript" type="text/javascript">
+        // Array of trivia data
+        var TriviaData = new Array(10)
+        createTwoDimensionalArray(3);
+ 
+        // Variables to track state of the game
+        // i.e. number questions asked, current correct total and current question
+        var questionsAsked = 0;
+        var totalCorrect = 0;
+        var currentQuestion = 0;
+        var selectionValid = false;
+ 
+        // Questions
+        TriviaData[0][0] = "Ben ik 17 jaar oud ? .";
+        TriviaData[1][0] = "Zijn enkele van mijn hobby's :voetballen , zwemmen en dammen.";
+        TriviaData[2][0] = "Ben ik in Wanica geboren op 3 Juni 1999 ?.";
+        TriviaData[3][0] = "Heet ik Krishan Sital ?.";
+        TriviaData[4][0] = "Ben ik afkomstig van NATIN ?.";
+        TriviaData[5][0] = "Zit ik momenteel op NATIN.";
+        TriviaData[6][0] = "Woon ik in Suriname ? .";
+        TriviaData[7][0] = "Ben ik echt op Facebook ?.";
+        TriviaData[8][0] = "Vind ik het leuk om nieuwe codeer talen te leren?.";
+        TriviaData[9][0] = "Is mijn E-mail account :krishansitalnatin@hotmail.com ?.";
+   
+        // Answers
+        TriviaData[0][1] = "false";
+        TriviaData[1][1] = "true";
+        TriviaData[2][1] = "false";
+        TriviaData[3][1] = "false";
+        TriviaData[4][1] = "false";
+        TriviaData[5][1] = "true";
+        TriviaData[6][1] = "true";
+        TriviaData[7][1] = "true";
+        TriviaData[8][1] = "true";
+        TriviaData[9][1] = "false";
+ 
+        // Has question been asked
+        // -- necessary because we are asking in random order
+        TriviaData[0][2] = "no";
+        TriviaData[1][2] = "no";
+        TriviaData[2][2] = "no";
+        TriviaData[3][2] = "no";
+        TriviaData[4][2] = "no";
+        TriviaData[5][2] = "no";
+        TriviaData[6][2] = "no";
+        TriviaData[7][2] = "no";
+        TriviaData[8][2] = "no";
+        TriviaData[9][2] = "no";
+ 
+        // Load up first question
+        setQuestion();
+ 
+        // Sets question text and indicator so that we know the question has been displayed
+        function setQuestion() {
+            selectionValid = false; // Flag to make sure question has not been asked yet
+            while (selectionValid == false) {
+                currentQuestion = Math.floor(Math.random() * 10); // randomly select starting question
+                if (TriviaData[currentQuestion][2] == "no") {
+                    selectionValid = true;
+                }
+            }
+            document.getElementById("TriviaQuestion").innerHTML = TriviaData[currentQuestion][0];
+            TriviaData[currentQuestion][2] = "yes";
+            questionsAsked = questionsAsked + 1;
+        }
+ 
+        function processAnswer(myAnswer) {
+            if (TriviaData[currentQuestion][1] == myAnswer) {
+                // answer correct
+                totalCorrect = totalCorrect + 1;
+            }
+        }
+ 
+        // This function creates our two dimensional array
+        function createTwoDimensionalArray(arraySize) {
+            for (i = 0; i < TriviaData.length; ++i)
+                TriviaData[i] = new Array(arraySize);
+        }
+ 
+        // This function checks the answer, updates correct total
+        // and randomly selects the next question
+        function checkAnswer() {
+            if (document.getElementById("RadioTrue").checked) {
+                processAnswer("true");
+            }
+            else {
+                processAnswer("false");
+            }
+            // get next question if not asked all yet
+            if (questionsAsked < 10) {
+                setQuestion();
+            }
+            // final question asked - disable button and show final results
+            else {
+                alert("Gefeliciteerd u heeft " + totalCorrect + " vragen correct beantwoord.");
+                document.getElementById("ButtonContinue").disabled = true;
+            }
+            // update totals
+            document.getElementById("NumberAsked").innerHTML = questionsAsked;
+            document.getElementById("NumberCorrect").innerHTML = totalCorrect;
+        }
+ 
+    </script>
+	
+	
+
+<DIV class=art-postcontent><!-- article-content -->
+<DIV class=cleared></DIV>
+<TABLE class="art-content-layout overview-table">
+<TBODY>
+<TR>
+<DIV class="art-post-inner art-article">
+<DIV class=art-postcontent><!-- article-content -->
+
+<P><SPAN class="art-button-wrapper  "><SPAN class=l></SPAN><SPAN class=r></SPAN> </SPAN></P><!-- /article-content --></DIV>
+<DIV class=cleared></DIV></DIV>
+<DIV class=cleared></DIV></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV class=cleared></DIV>
+<DIV class=art-footer>
+<DIV class=art-footer-background></DIV></DIV>
+<DIV class=cleared></DIV></DIV></DIV>
+<DIV class=cleared></DIV></DIV></BODY>
+</HTML>
